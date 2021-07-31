@@ -28,8 +28,8 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
     origin: 'bottom',
-    distance: '40px',
-    duration: 700,
+    distance: '75px',
+    duration: 1200,
     reset: false
 });
 
@@ -70,9 +70,13 @@ function form() {
     document.querySelector('form').reset();
     let msg = document.querySelector('#msg');
     msg.classList.toggle('hide')
-    setTimeout(function(){msg.classList.toggle('hide')},4000)
 
 }
 
-// ======Dark mode====
+// ======Loader====
+{/* <script>
+    $(window).on("load",funcion(){
+        $(".loader").fadeOut("slow");
+    })
+</script> */}
 

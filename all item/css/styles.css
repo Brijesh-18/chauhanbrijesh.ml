@@ -28,7 +28,7 @@
   }
 }
 
-/*===== Margenes =====*/
+/*===== Margin =====*/
 :root {
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -61,6 +61,7 @@ body {
   font-size: var(--normal-font-size);
   color: var(--second-color);
   background-image: linear-gradient(to right, #ffaeae29, rgb(0 231 255 / 18%));
+  /* background: url("/all item/img/bg1.jpg")no-repeat;  */
 }
 h1,
 h2,
@@ -78,7 +79,7 @@ a {
 img {
   max-width: 100%;
   height: auto;
-  display: block;
+  /* display: block; */
   /* border-radius: 10rem; */
   /* box-shadow: 8px 5px 10px 5px grey; */
 }
@@ -324,7 +325,7 @@ img {
 }
 
 /* ===== WORK =====*/
-.work__container {
+/* .work__container {
   row-gap: 2rem;
 }
 .work__img {
@@ -338,7 +339,24 @@ img {
 }
 .work__img img:hover {
   transform: scale(1.1);
+} */
+
+/* ======= Project ====== */
+#work{
+  text-align: center;
 }
+.btn1 button{
+    background-color: var(--first-color);
+    color: #fff;
+    padding: 0.75rem 2.5rem;
+    font-weight: var(--font-semi);
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+ /* .project_img{
+   text-align: center;
+ } */
 
 /* ===== CONTACT =====*/
 .contact__input {
@@ -496,7 +514,6 @@ img {
   position: fixed;
   background: rgb(48, 48, 48);
   z-index: 999999;
-  top: 0;
 }
 
 .loader {
