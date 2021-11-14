@@ -242,7 +242,7 @@ img {
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
-  padding: 0.75rem 2.5rem;
+  padding: 8px 20px;
   font-weight: var(--font-semi);
   border-radius: 0.5rem;
 }
