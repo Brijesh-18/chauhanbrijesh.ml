@@ -508,7 +508,7 @@ img {
 
 /* ======= Loader======= */
 
-.loaderContainer {
+/* .loaderContainer {
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -523,7 +523,6 @@ img {
   transform: translate(-50%, -50%) rotate(45deg);
   width: 100px;
   height: 100px;
-  /* background: #ff0; */
   animation: animate 1s linear infinite;
 }
 @keyframes animate {
@@ -547,8 +546,8 @@ img {
     width: 100px;
     height: 100px;
   }
-}
-.loader span {
+} */
+/* .loader span {
   position: absolute;
   width: 50px;
   height: 50px;
@@ -593,7 +592,9 @@ img {
   bottom: 0;
   right: 0;
   background: #a3cb38;
-}
+} */
+
+/* ======animate===== */
 
 .animate-charcter {
   text-transform: uppercase;
