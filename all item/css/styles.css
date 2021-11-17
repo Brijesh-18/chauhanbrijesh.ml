@@ -309,13 +309,13 @@ img {
   z-index: var(--z-back);
 }
 .skills__html {
-  width: 95%;
-}
-.skills__css {
   width: 85%;
 }
+.skills__css {
+  width: 80%;
+}
 .skills__js {
-  width: 15%;
+  width: 25%;
 }
 /* .skills__pthon{
   width: 30%;
